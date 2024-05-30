@@ -1,6 +1,6 @@
 * {
   align-items: center;
-  width: ;
+  width: auto;
 }
 
 /*************** HEADER ***************/
@@ -33,13 +33,14 @@ h1 {
 /*************** END HEADER ***************/
 
 /*************** NAV ***************/
-nav {
+ul {
   width: 100%;
   height: 55px;
   display: flex;
   justify-content: space-evenly;
   padding: 15px;
   background-color: rgb(198, 235, 235);
+  list-style-type: none;
 }
 
 .navigateur {
@@ -63,10 +64,11 @@ body {
 
 section {
   text-align: left;
-  min-height: 550px;
+  height: 550px;
 }
 main {
   background-color: rgb(142, 157, 120);
+  height: 800px;
   width: 1000px;
   align-items: center;
   margin: auto;
@@ -74,8 +76,7 @@ main {
 
 base-du-menu {
   width: 355px;
-  height: 400;
-  background-color: cadetblue;
+  height: 40%;
 }
 /*************** END MAIN ***************/
 
@@ -102,7 +103,33 @@ base-du-menu {
 /*************** FOOTER ***************/
 
 /*************** END FOOTER ***************/
+/**************page POSITION***************/
+h2 {
+  font-family: serif;
+  font-size: 35px;
+  padding: 15px;
+}
 
+p {
+  margin-top: 80px;
+}
+
+#position {
+  background-color: #e68f15;
+  width: 600px;
+  height: 300px;
+  margin-left: 150px;
+}
+
+.square1 {
+  background-color: #15e62a;
+  position: absolute;
+  top: 60px;
+  left: 260px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73ad21;
+}
 /*************** MEDIAQUERY ***************/
 
 @media (max-width: 1400px) {
