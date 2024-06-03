@@ -16,6 +16,12 @@
         <input type="texte" id="fpassword" name="fpassword">  
         </il>
     </section>
+<div class="ficher">
+    <nomofcv>CV</nomofcv>
+    <nameoffich><input type="file" id="fileInput" class="custom-file-input">
+<label for="fileInput" class="custom-file-label">Sélectionner un fichier</label>
+</nameoffich>
+</div>
 
 
 
