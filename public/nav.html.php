@@ -10,42 +10,42 @@
                 texte
             </a>
         </li>
-<li class="navigateur">
-    <a href="selecteur.php">
+      <li class="navigateur">
+      <a href="selecteur.php">
         selecteur
 
-</a></li>
-<li class="navigateur">
-    <a href="image.php">
+      </a></li>
+       <li class="navigateur">
+     <a href="image.php">
         image
 
-</a>
-</li>
-<li class="navigateur">
+      </a>
+       </li>
+       <li class="navigateur">
     <a href="position.php">
         position
 
-</a>
-</li>
+     </a>
+   </li>
 <li class="navigateur">
     <a href="zoning.php">
         zoning
 
 </a>
 </li>
-<li class="navigateur"><a href="tableau">tableau
+<li class="navigateur"><a href="tableau.php">tableau
 
 </a></li>
-<li class="navigateur"><a href="list">list
+<li class="navigateur"><a href="list.php">list
 
 </a></li>
-<li class="navigateur"><a href="lien_menu">lien&menu
+<li class="navigateur"><a href="list_menu.php">lien&menu
 
 </a></li>
-<li class="navigateur"><a href="formulaire">formulaire
+<li class="navigateur"><a href="formulaire.php">formulaire
 
 </a></li>
-<li class="navigateur"><a href="multimedia">multimédia
+<li class="navigateur"><a href="multimedia.php">multimédia
 
 </a></li>
 <li class="navigateur"><a href="">animation
