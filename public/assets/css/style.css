@@ -220,8 +220,44 @@ t {
   height: 90%;
 }
 
-/*************** END SECTION 1 ***************/
+/*************** SELECTEUR ***************/
 
+.pink {
+  color: rgb(243, 156, 171);
+}
+
+.red {
+  color: red;
+}
+.black {
+}
+
+.orange {
+  color: #e68f15;
+}
+
+.b {
+  color: rgb(139, 59, 38);
+}
+.bleu {
+  color: dodgerblue;
+}
+
+.c {
+  color: #79e153;
+}
+
+e {
+  color: #26b12b;
+}
+cteur {
+  min-height: 360px;
+  width: 860px;
+  margin: auto;
+  display: block;
+  background-color: rgba(151, 151, 152, 0.679);
+  padding: 25px;
+}
 /*************** FOOTER ***************/
 footer {
   width: 100%;
@@ -235,8 +271,66 @@ title {
   font-size: 30px;
 }
 
-/*************** END SECTION 3 ***************/
+/*************** image ***************/
 
+mage {
+  min-height: 360px;
+  width: 860px;
+  margin: auto;
+  display: block;
+  background-color: rgba(151, 151, 152, 0.679);
+}
+
+.fond {
+  width: 100%;
+  padding: 10px;
+}
+
+sectionim {
+  display: block;
+  background-image: url("fond.jpg");
+  width: 100%;
+  height: 650px;
+}
+
+sectionim > p {
+  background-color: rgb(169, 172, 175);
+  width: 700px;
+  min-height: 290px;
+  opacity: 0.7;
+  padding: 10px;
+  border-radius: 15px 15px 15px 15px;
+  margin: auto;
+  position: relative;
+  top: 110px;
+}
+
+sectionmage {
+  min-height: 450px;
+  width: 860px;
+  margin: auto;
+  display: block;
+  background-color: rgba(151, 151, 152, 0.679);
+}
+
+.double {
+  margin: auto;
+  display: flex;
+}
+
+#tour {
+  margin: auto;
+  display: flex;
+}
+
+#pont {
+  margin: auto;
+  border: 2px solid white;
+  box-shadow: 5px 5px lightblue;
+}
+/*************** endMAGES ***************/
+
+/*************** SECTION 3 ***************/
 /*************** MEDIAQUERY ***************/
 
 @media (max-width: 1400px) {
