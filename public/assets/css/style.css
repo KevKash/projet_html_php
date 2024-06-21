@@ -6,7 +6,7 @@
 a {
   text-decoration: none;
   color: white;
-  transition: 0.5;
+  transition: all 0.5;
 }
 
 .navigateur:hover {
@@ -84,10 +84,11 @@ body {
 }
 main {
   background-color: rgb(120, 157, 155);
-  height: 800px;
+  min-height: 800px;
   width: 1000px;
   align-items: center;
   margin: auto;
+  padding-bottom: 10px;
 }
 
 .basedumenu {
@@ -137,14 +138,19 @@ a:hover {
   outline-offset: -2px;
 }
 
-.fichier > {
+.fichier {
   display: flex;
   justify-content: space-between;
 }
 
 /*************** END MAIN ***************/
 
-/*************** ASIDE LEFT ***************/
+/*************** zoning ***************/
+main > ction {
+  background-color: #88b5b2;
+  height: 33px;
+  width: 100%;
+}
 
 /*************** END ASIDE LEFT***************/
 
@@ -182,6 +188,57 @@ p {
   width: 200px;
   height: 100px;
   border: 3px solid #73ad21;
+}
+
+#relative {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(32, 72, 137);
+  margin: auto;
+  position: relative;
+}
+.lilsquare {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(208, 202, 39);
+  position: absolute;
+  left: 360px;
+}
+
+.bois {
+  height: 30px;
+  width: 30%;
+  background-color: #583c16;
+  margin-bottom: 5px;
+}
+
+.rose {
+  height: 30px;
+  width: 50%;
+  background-color: #e615d5;
+  margin-bottom: 5px;
+}
+
+.beige {
+  height: 30px;
+  width: 100%;
+  background-color: #e4b774;
+  margin-bottom: 5px;
+}
+
+#flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+#flex > div {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(39, 78, 208);
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin: 10px;
 }
 /*************PAGE STRUCTURE**************/
 
